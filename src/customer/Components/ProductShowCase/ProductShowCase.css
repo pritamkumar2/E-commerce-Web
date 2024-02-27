@@ -1,0 +1,13 @@
+.product-showcase {
+    width: 100%; /* Fills the width of its container */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  /* Media query for screens smaller than 768px (typical mobile screens) */
+  @media (max-width: 767px) {
+    .product-showcase img {
+      width: 100%; /* Sets the width to 100% of the viewport width */
+      height: auto; /* Maintains aspect ratio */
+    }
+  }
+  

@@ -1,0 +1,6 @@
+.adminContainer{
+    background-image: linear-gradient(rgba(to right , rgba(0, 0, 0, 0.699) 0, 0.411),blue);
+    padding: 1rem;
+    min-height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(244, 240, 240); */
+  /* background-color: #15151e; */
+  min-height: 100%;
+  overflow-x: hidden; 
+}
+html{
+  scroll-behavior: smooth;
+  background: white;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+
+/* /////////////////////////////////// */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#bgneed {
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+}
+
+#notfound {
+  color: black;
+  background-image: linear-gradient(to right , white, rgb(255, 255, 0), white);
+  border-radius: 2%;
+
+  height: 90vh;
+}
+
+#notfound h2 {
+  text-align: center;
+  font-size: 80px;
+  background: linear-gradient(to left, #eeea00, #fcfcfc, #adbc9f, #deee00);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#notfound a {
+  color: blue;
+}
+
+.code {
+  margin-top: 9%; 
+}
+
+@media (max-width: 768px) {
+  .code {
+    margin-top: 31%;
+  }
+}
+
+.scroller-thin::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.scroller-thin::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Optional: Change the background color */
+}
+
+/* Handle */
+.scroller-thin::-webkit-scrollbar-thumb {
+  background: #888; /* Optional: Change the handle color */
+}
+
+.scroller-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
