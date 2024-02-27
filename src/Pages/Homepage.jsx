@@ -78,7 +78,8 @@ const Homepage = () => {
   return (
     <div className="mx-auto   flex flex-col justify-center items-center  ">
       <HomeCarousel images={homeCarouselData} />
-      <div className="mt-10  space-y-5 ">
+
+      <div className="mt-10  space-y-5 mx-auto w-full    ">
         {watches.length > 0 && (
           <HomeProductSection data={watches} section={"Wristwatches for Men"} />
         )}
