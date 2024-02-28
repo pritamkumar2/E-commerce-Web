@@ -26,6 +26,8 @@ const initialSizes = [
   { name: "S", quantity: 0 },
   { name: "M", quantity: 0 },
   { name: "L", quantity: 0 },
+  {name: "xl", quantity: 0},
+  { name: "xxl", quantity: 0}
 ];
 
 const ShoesInitialSize = [
